@@ -140,6 +140,10 @@ body {
     position: relative;
 }
 
+.card figcaption {
+    padding-top: 5px;
+}
+
 .card:hover .card__img--visible {
     opacity: 0;
 }
@@ -172,6 +176,7 @@ body {
 .card__title {
     font-size: 17px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .card__price {
@@ -203,4 +208,51 @@ body {
     background-color: green;
 }
 
-/* Regole Debug */
+/* Footer */
+.footer {
+    padding-block: 31.5px;
+    background-color: #1A1A1A;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .container {
+    display: flex;
+}
+
+.footer__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer__menu {
+    display: flex;
+}
+
+.footer .menu__item {
+    margin-right: 10px;
+}
+
+.footer__social {
+    margin-left: auto;
+}
+
+.social__text {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.social__menu {
+    display: flex;
+}
+
+.social__menu a {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+}
