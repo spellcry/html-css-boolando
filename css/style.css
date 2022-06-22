@@ -24,7 +24,7 @@ menu {
 
 /* Regole Layout */
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: sans-serif;
 }
 
