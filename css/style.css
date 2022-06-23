@@ -59,6 +59,7 @@ body {
 .preferito a {
     font-size: 30px;
     color: #000;
+    user-select: none;
 }
 
 .preferito a:hover {
