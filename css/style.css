@@ -196,7 +196,7 @@ body {
     font-weight: bold;
 }
 
-.extra p {
+.extra div {
     display: inline-block;
     line-height: 26px;
     padding-inline: 10px;
